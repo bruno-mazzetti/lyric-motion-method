@@ -1,0 +1,38 @@
+[
+ {
+  "i": 0,
+  "section": "Verse 1",
+  "echo": false,
+  "a": 6.0,
+  "b": 8.9,
+  "n": 4,
+  "text": "Tyger Tyger, burning bright,"
+ },
+ {
+  "i": 1,
+  "section": "Verse 1",
+  "echo": true,
+  "a": 10.0,
+  "b": 12.9,
+  "n": 6,
+  "text": "In the forests of the night;"
+ },
+ {
+  "i": 2,
+  "section": "Verse 1",
+  "echo": false,
+  "a": 14.0,
+  "b": 16.9,
+  "n": 5,
+  "text": "What immortal hand or eye,"
+ },
+ {
+  "i": 3,
+  "section": "Verse 1",
+  "echo": true,
+  "a": 18.0,
+  "b": 21.2,
+  "n": 5,
+  "text": "Could frame thy fearful symmetry?"
+ }
+]

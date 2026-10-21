@@ -1,0 +1,23 @@
+{
+  "name": "lyric-motion-method",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Code-driven animated lyric videos: forced-aligned lyrics, a scene engine, deterministic Remotion rendering.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "preview": "remotion render src/index.ts Full out/preview.mp4 --scale=0.5 --crf=30",
+    "render4k": "remotion render src/index.ts Full out/final-4k30.mp4 --scale=3 --crf=16 --audio-codec=aac --audio-bitrate=320k",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.537",
+    "@remotion/google-fonts": "^4.0.537",
+    "@remotion/media-utils": "^4.0.537",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.537",
+    "typescript": "^7.0.2"
+  }
+}

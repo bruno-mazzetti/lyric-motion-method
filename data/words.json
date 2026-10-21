@@ -1,0 +1,205 @@
+{
+"duration": 24.0,
+"words": [
+{
+"text": "Tyger",
+"w": "Tyger",
+"section": "Verse 1",
+"line": 1,
+"echo": false,
+"start": 6.0,
+"end": 6.5,
+"score": 1.0
+},
+{
+"text": "Tyger,",
+"w": "Tyger",
+"section": "Verse 1",
+"line": 1,
+"echo": false,
+"start": 6.6,
+"end": 7.2,
+"score": 1.0
+},
+{
+"text": "burning",
+"w": "burning",
+"section": "Verse 1",
+"line": 1,
+"echo": false,
+"start": 7.3,
+"end": 7.9,
+"score": 1.0
+},
+{
+"text": "bright,",
+"w": "bright",
+"section": "Verse 1",
+"line": 1,
+"echo": false,
+"start": 8.0,
+"end": 8.9,
+"score": 1.0
+},
+{
+"text": "In",
+"w": "In",
+"section": "Verse 1",
+"line": 2,
+"echo": true,
+"start": 10.0,
+"end": 10.3,
+"score": 1.0
+},
+{
+"text": "the",
+"w": "the",
+"section": "Verse 1",
+"line": 2,
+"echo": true,
+"start": 10.35,
+"end": 10.6,
+"score": 1.0
+},
+{
+"text": "forests",
+"w": "forests",
+"section": "Verse 1",
+"line": 2,
+"echo": true,
+"start": 10.7,
+"end": 11.3,
+"score": 1.0
+},
+{
+"text": "of",
+"w": "of",
+"section": "Verse 1",
+"line": 2,
+"echo": true,
+"start": 11.4,
+"end": 11.6,
+"score": 1.0
+},
+{
+"text": "the",
+"w": "the",
+"section": "Verse 1",
+"line": 2,
+"echo": true,
+"start": 11.7,
+"end": 11.9,
+"score": 1.0
+},
+{
+"text": "night;",
+"w": "night",
+"section": "Verse 1",
+"line": 2,
+"echo": true,
+"start": 12.0,
+"end": 12.9,
+"score": 1.0
+},
+{
+"text": "What",
+"w": "What",
+"section": "Verse 1",
+"line": 3,
+"echo": false,
+"start": 14.0,
+"end": 14.3,
+"score": 1.0
+},
+{
+"text": "immortal",
+"w": "immortal",
+"section": "Verse 1",
+"line": 3,
+"echo": false,
+"start": 14.4,
+"end": 15.1,
+"score": 1.0
+},
+{
+"text": "hand",
+"w": "hand",
+"section": "Verse 1",
+"line": 3,
+"echo": false,
+"start": 15.2,
+"end": 15.6,
+"score": 1.0
+},
+{
+"text": "or",
+"w": "or",
+"section": "Verse 1",
+"line": 3,
+"echo": false,
+"start": 15.7,
+"end": 15.9,
+"score": 1.0
+},
+{
+"text": "eye,",
+"w": "eye",
+"section": "Verse 1",
+"line": 3,
+"echo": false,
+"start": 16.0,
+"end": 16.9,
+"score": 1.0
+},
+{
+"text": "Could",
+"w": "Could",
+"section": "Verse 1",
+"line": 4,
+"echo": true,
+"start": 18.0,
+"end": 18.3,
+"score": 1.0
+},
+{
+"text": "frame",
+"w": "frame",
+"section": "Verse 1",
+"line": 4,
+"echo": true,
+"start": 18.4,
+"end": 18.8,
+"score": 1.0
+},
+{
+"text": "thy",
+"w": "thy",
+"section": "Verse 1",
+"line": 4,
+"echo": true,
+"start": 18.9,
+"end": 19.2,
+"score": 1.0
+},
+{
+"text": "fearful",
+"w": "fearful",
+"section": "Verse 1",
+"line": 4,
+"echo": true,
+"start": 19.3,
+"end": 20.0,
+"score": 1.0
+},
+{
+"text": "symmetry?",
+"w": "symmetry",
+"section": "Verse 1",
+"line": 4,
+"echo": true,
+"start": 20.1,
+"end": 21.2,
+"score": 1.0
+}
+]
+}

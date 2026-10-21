@@ -1,0 +1,13 @@
+node_modules
+.venv
+out
+audio/*
+!audio/.gitkeep
+__pycache__
+*.pyc
+data/transcript.json
+data/match.json
+data/lyrics_words.json
+data/lyrics.txt
+data/prompt.txt
+data/overrides.json
