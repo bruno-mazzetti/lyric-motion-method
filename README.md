@@ -19,6 +19,19 @@ This repository documents how an 8½-minute, 4K lyric video was built entirely i
 | A **failure log** (tooling traps, wrong turns) | [docs/07-pitfalls.md](docs/07-pitfalls.md) |
 | Step-by-step **reproduction** with your own song | [docs/08-reproduce.md](docs/08-reproduce.md) |
 
+## Requirements (what to have before you start)
+
+| For | You need | Notes |
+|---|---|---|
+| **The demo only** (no alignment) | Node.js ≥ 22, ffmpeg, ~2 GB free disk | Any reasonably recent computer. RAM: 16 GB is a comfortable guess (not measured). |
+| **Aligning your own song** | Python 3.12 + **an NVIDIA GPU with ≥ 6 GB of video memory** (recommended) | Measured peaks: Whisper large-v3 ≈ **4.3 GB** of VRAM, the CTC aligner ≈ **0.9 GB**. With 4 GB, use `WHISPER_MODEL=medium` or `small`. |
+| **CUDA** | A recent NVIDIA driver that supports **CUDA 12.8** (the `cu128` PyTorch wheels used here) | Check with `nvidia-smi`; if `torch.cuda.is_available()` prints `False`, see [docs/07-pitfalls.md](docs/07-pitfalls.md). |
+| **No NVIDIA GPU** | CPU fallback (`DEVICE=cpu`) | Works but slower; tested on a 40 s excerpt only (≈ 18 s with the `small` model). |
+| **Disk** | **≥ 20 GB free** | Measured: Python environment 8.1 GB, `node_modules` 0.9 GB, wav2vec2 aligner 0.36 GB, Whisper large-v3 several GB, final 4K file ≈ 0.5 GB for 8.5 min of video. |
+| **4K render** | A fast multi-core CPU, 32 GB RAM or more is a prudent guess (not measured) | The render is done by headless Chrome (CPU). Reference timing: 13.5 min for 8.5 min of 4K video on a fast desktop. Not tested on a laptop. |
+
+These numbers come from one machine and one song. Treat the measured ones as order-of-magnitude, and the "guesses" as guesses.
+
 ## Try it in two minutes (no GPU, no Python, no song)
 
 ```bash

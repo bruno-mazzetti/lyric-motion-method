@@ -4,6 +4,9 @@ Tested path: Windows, NVIDIA GPU with CUDA, Node ≥ 22, Python 3.12, ffmpeg on 
 
 ## 0. Prerequisites
 
+Hardware requirements and measured memory figures are in the README's *Requirements* table.
+
+
 - Node.js ≥ 22, npm
 - ffmpeg + ffprobe on PATH
 - Chrome/Chromium (Remotion downloads a headless one on first render if needed)

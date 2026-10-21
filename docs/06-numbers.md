@@ -36,6 +36,15 @@ Software: Node 24.15, Remotion 4.0.537, React 19, Python 3.12.10, torch 2.8.0+cu
 | Hugging Face cache (whole machine, shared with other uses; Whisper large-v3 is part of it) | 8.6 GB total (not isolated) |
 | wav2vec2 alignment model (torch hub cache) | 361 MB |
 
+## Video memory (measured on a full 8-minute song)
+
+| Step | Peak VRAM above what other applications already used |
+|---|---|
+| Whisper large-v3 transcription (float16) | ≈ 4.3 GB |
+| CTC forced alignment (wav2vec2) | ≈ 0.9 GB |
+
+Measured by polling `nvidia-smi` once per second during each step, subtracting the memory in use beforehand. CPU fallback: the `small` model transcribed a 40 s excerpt in ≈ 18 s.
+
 ## Alignment quality (reference song, English, lead + choir)
 
 | Measure | Value |
@@ -50,4 +59,4 @@ Software: Node 24.15, Remotion 4.0.537, React 19, Python 3.12.10, torch 2.8.0+cu
 
 ## What was not measured
 
-Token or monetary cost of the AI sessions; GPU memory peaks; Whisper's CPU-only speed; the first-run model download times; sync error against ground truth.
+Token or monetary cost of the AI sessions; system RAM peaks; Whisper large-v3's CPU-only speed; the first-run model download times; sync error against ground truth.
